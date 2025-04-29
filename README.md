@@ -1,1 +1,2 @@
-# airbnb-clone-project
+This  is a project that provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments.Some of goals are:user management,property management,booking management payments integrations,user reviews and data optimimisation.
+Stack to be used :Django,Django rest framework,GraphQl,PostgreSQL,Docker,Redis and CI/CD pipelines and Celery as payment gateway
