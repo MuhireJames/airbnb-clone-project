@@ -31,3 +31,8 @@ User Management feature:It all about all user management related features like u
 Review feature:Where users can make review ,edit or delete reviews
 Payment processing:Users may make payment of their related bookings they liked 
 
+API Security
+User authentication:where users will be allowed to register and login into our application
+User authorisation:Where users will be having access to some routes while other will be restricted like some routes to be accessed by by admin only
+rate limiting: where users will be allowed to do limited api request to our app
+
