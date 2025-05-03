@@ -26,3 +26,8 @@ Users Authentication:where user can register,sign in and get current user
 Property management:Where user can read,create,update,or delete property
 Booking management :user can make booking,edit and make checkout his/her booking
 
+Feature Breakdown
+User Management feature:It all about all user management related features like user authentication and authorisation,creating CRUD operation
+Review feature:Where users can make review ,edit or delete reviews
+Payment processing:Users may make payment of their related bookings they liked 
+
