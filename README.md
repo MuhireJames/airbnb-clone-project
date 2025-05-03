@@ -21,3 +21,8 @@ Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes
 
+Database Design
+Users Authentication:where user can register,sign in and get current user
+Property management:Where user can read,create,update,or delete property
+Booking management :user can make booking,edit and make checkout his/her booking
+
