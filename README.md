@@ -36,3 +36,7 @@ User authentication:where users will be allowed to register and login into our a
 User authorisation:Where users will be having access to some routes while other will be restricted like some routes to be accessed by by admin only
 rate limiting: where users will be allowed to do limited api request to our app
 
+CI/CD Pipeline
+It is important in authomating software delivery  processing,reduces errors and improve team collaboration
+we will user tools like Docker,Github actions and Jenkins
+
