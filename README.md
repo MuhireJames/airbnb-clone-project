@@ -24,7 +24,7 @@ Stack to be used :Django,Django rest framework,GraphQl,PostgreSQL,Docker,Redis a
 **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes  
 
 ## Database Design  
-1. Users  
+## 1. Users  
 ### Purpose  
 Stores user credentials and profile information  
 #### Fields  
@@ -32,8 +32,9 @@ Stores user credentials and profile information
 -username  
 -password  
 -role    
--created_at    
-2. Properties  
+-created_at 
+
+## 2. Properties    
 ### Purpose  
 Represents properties that users can list and book  
 #### Important fileds  
@@ -44,8 +45,9 @@ Represents properties that users can list and book
 -address  
 -availability  
 -price_per_night  
--created_at 
-3 .Bookings  
+-created_at  
+
+## 3 .Bookings  
 ### Purpose  
 Tracks property reservations made by users  
 #### Fields  
@@ -57,7 +59,8 @@ Tracks property reservations made by users
 .total_price  
 .status  
 .created_at  
-4. Payments  
+
+## 4. Payments  
 ### purpose  
 Handles transaction records for bookings.  
 #### fields  
@@ -68,8 +71,8 @@ Handles transaction records for bookings.
 .payment_status  
 .transaction_id  
 .paid_at    
-5 .Reviews    
-### Purpose  
+## 5 .Reviews    
+### Purpose    
 Allows users to leave reviews and ratings on properties  
 #### Fields  
 .id  
@@ -92,21 +95,27 @@ Allows users to leave reviews and ratings on properties
 
 ## CI/CD Pipeline 
 ### Description    
-Continuous Integration (CI) and Continuous Deployment (CD) pipelines are essential for modern application development  
-✅ Key Benefits  
-.Faster Development Cycles  
-Automates the workflow from code commit to deployment, reducing manual effort and accelerating release timelines.  
+Continuous Integration (CI) and Continuous Deployment (CD) pipelines are essential for modern application development    
+## ✅ Key Benefits  
+.Faster Development Cycles    
+Automates the workflow from code commit to deployment, reducing manual effort and accelerating release timelines. 
+
 .Improved Code Quality  
-Automated tests run on every code change, helping catch bugs and regressions early in the development process.    
+Automated tests run on every code change, helping catch bugs and regressions early in the development process. 
+
 .Consistent Deployments  
-Ensures code is deployed the same way every time, reducing the chance of human error and environment discrepancies.  
+Ensures code is deployed the same way every time, reducing the chance of human error and environment discrepancies. 
+
 .Instant Feedback  
 Developers are quickly alerted to issues through failed builds or tests, enabling faster fixes and better collaboration.  
+
 .Better Collaboration  
-Teams can merge changes more confidently and frequently, reducing merge conflicts and integration challenges.   
+Teams can merge changes more confidently and frequently, reducing merge conflicts and integration challenges.
+
 .Scalability and Reliability  
 As your app grows, CI/CD helps maintain a stable and scalable infrastructure by automating repeatable tasks.  
-🛠️ Common CI/CD Tools  
+
+## 🛠️ Common CI/CD Tools  
 *GitHub Actions  
 *GitLab CI/CD  
 *Jenkins  
