@@ -1,4 +1,4 @@
-# airbnb-clone-project  
+# Airbnb Clone Project  
 This  is a project that provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments.Some of goals are:user management,property management,booking management payments integrations,user reviews and data optimimisation.  
 Stack to be used :Django,Django rest framework,GraphQl,PostgreSQL,Docker,Redis and CI/CD pipelines and Celery as payment gateway  
 
@@ -24,9 +24,61 @@ Stack to be used :Django,Django rest framework,GraphQl,PostgreSQL,Docker,Redis a
 **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes  
 
 ## Database Design  
-**Users Authentication**:where user can register,sign in and get current user  
-**Property management**:Where user can read,create,update,or delete property  
-**Booking management** :user can make booking,edit and make checkout his/her booking  
+1. Users  
+### Purpose  
+Stores user credentials and profile information  
+#### Fields  
+-id  
+-username  
+-password  
+-role    
+-created_at    
+2. Properties  
+### Purpose  
+Represents properties that users can list and book  
+#### Important fileds  
+-id  
+-owner_id  
+-title  
+-description  
+-address  
+-availability  
+-price_per_night  
+-created_at 
+3 .Bookings  
+### Purpose  
+Tracks property reservations made by users  
+#### Fields  
+.id  
+.user_id  
+.property_id  
+.start_date  
+.end_date  
+.total_price  
+.status  
+.created_at  
+4. Payments  
+### purpose  
+Handles transaction records for bookings.  
+#### fields  
+.id  
+.booking_id  
+.amount  
+.payment_method  
+.payment_status  
+.transaction_id  
+.paid_at    
+5 .Reviews    
+### Purpose  
+Allows users to leave reviews and ratings on properties  
+#### Fields  
+.id  
+.user_id  
+.property_id  
+.start_date  
+.rating   
+.comment  
+.created_at
 
 ## Feature Breakdown  
 **User Management feature**:It all about all user management related features like user authentication and authorisation,creating CRUD operation  
@@ -36,9 +88,29 @@ Stack to be used :Django,Django rest framework,GraphQl,PostgreSQL,Docker,Redis a
 ## API Security  
 **User authentication**:where users will be allowed to register and login into our application  
 **User authorisation**:Where users will be having access to some routes while other will be restricted like some routes to be accessed by by admin only  
-**rate limiting**: where users will be allowed to do limited api request to our app  
+**Rate limiting**: where users will be allowed to do limited api request to our app  
 
-## CI/CD Pipeline  
-It is important in authomating software delivery  processing,reduces errors and improve team collaboration  
-we will user tools like Docker,Github actions and Jenkins  
+## CI/CD Pipeline 
+### Description    
+Continuous Integration (CI) and Continuous Deployment (CD) pipelines are essential for modern application development  
+✅ Key Benefits  
+.Faster Development Cycles  
+Automates the workflow from code commit to deployment, reducing manual effort and accelerating release timelines.  
+.Improved Code Quality  
+Automated tests run on every code change, helping catch bugs and regressions early in the development process.    
+.Consistent Deployments  
+Ensures code is deployed the same way every time, reducing the chance of human error and environment discrepancies.  
+.Instant Feedback  
+Developers are quickly alerted to issues through failed builds or tests, enabling faster fixes and better collaboration.  
+.Better Collaboration  
+Teams can merge changes more confidently and frequently, reducing merge conflicts and integration challenges.   
+.Scalability and Reliability  
+As your app grows, CI/CD helps maintain a stable and scalable infrastructure by automating repeatable tasks.  
+🛠️ Common CI/CD Tools  
+*GitHub Actions  
+*GitLab CI/CD  
+*Jenkins  
+*CircleCI  
+*Travis CI  
+
 
