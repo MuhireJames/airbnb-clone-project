@@ -24,20 +24,20 @@ Stack to be used :Django,Django rest framework,GraphQl,PostgreSQL,Docker,Redis a
 **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes  
 
 ## Database Design  
-## 1. Users  
-### Purpose  
+### 1. Users  
+#### Purpose  
 Stores user credentials and profile information  
-#### Fields  
+##### Fields  
 -id  
 -username  
 -password  
 -role    
 -created_at 
 
-## 2. Properties    
-### Purpose  
+### 2. Properties    
+#### Purpose  
 Represents properties that users can list and book  
-#### Important fileds  
+##### Important fileds  
 -id  
 -owner_id  
 -title  
@@ -47,10 +47,10 @@ Represents properties that users can list and book
 -price_per_night  
 -created_at  
 
-## 3 .Bookings  
-### Purpose  
+### 3 .Bookings  
+#### Purpose  
 Tracks property reservations made by users  
-#### Fields  
+##### Fields  
 .id  
 .user_id  
 .property_id  
@@ -60,10 +60,10 @@ Tracks property reservations made by users
 .status  
 .created_at  
 
-## 4. Payments  
-### purpose  
+### 4. Payments  
+#### Purpose  
 Handles transaction records for bookings.  
-#### fields  
+##### fields  
 .id  
 .booking_id  
 .amount  
@@ -71,10 +71,10 @@ Handles transaction records for bookings.
 .payment_status  
 .transaction_id  
 .paid_at    
-## 5 .Reviews    
-### Purpose    
+### 5 .Reviews    
+#### Purpose    
 Allows users to leave reviews and ratings on properties  
-#### Fields  
+##### Fields  
 .id  
 .user_id  
 .property_id  
