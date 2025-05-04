@@ -7,8 +7,8 @@ Product owner:who is responsible for holding responsibility for a product vision
 Project Manager:Makes sure a product or its part is delivered on time and within budget
 UI/UX designer:Transforms a product vision into user-friendly designs  
 Software Architect:Designs a high-level software architecture  
-Software Developer:Responsible for actual job and codes an application,for both frontend features and backend code including database design and Api development
-Quality assurance (QA) engineer:Makes sure an application performs according to requirements  
+Software Developer:Responsible for actual job and codes an application,for both frontend features and backend code including database design and Api development  
+Quality assurance (QA) engineer:Makes sure an application performs according to requirements   
 Test automation engineer:Designs a test automation ecosystem  
 DevOps Engineer:Builds continuous integration and continuous delivery (CI/CD) pipelines for faster delivery  
 
