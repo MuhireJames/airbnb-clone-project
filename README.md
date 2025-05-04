@@ -1,6 +1,6 @@
-This  is a project that provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments.Some of goals are:user management,property management,booking management payments integrations,user reviews and data optimimisation.
-Stack to be used :Django,Django rest framework,GraphQl,PostgreSQL,Docker,Redis and CI/CD pipelines and Celery as payment gateway
-Team Roles
+This  is a project that provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments.Some of goals are:user management,property management,booking management payments integrations,user reviews and data optimimisation.  
+Stack to be used :Django,Django rest framework,GraphQl,PostgreSQL,Docker,Redis and CI/CD pipelines and Celery as payment gateway  
+Team Roles  
 Business Analyst:Who will be responsible for understanding customer’s business processes and translate customer business needs into requirements
 Product owner:who is responsible for holding responsibility for a product vision and evolution and make sure final product meets customer requrement
 Project Manager:Makes sure a product or its part is delivered on time and within budget
